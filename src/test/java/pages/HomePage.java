@@ -23,7 +23,7 @@ public static void click_signIn_Link() throws InterruptedException {
         driver.findElement(By.linkText(signIn_link_LinkText)).click();
     }
 
-
+/*Test purpose*/
     public static void click_OnlineProduct_Link() throws InterruptedException {
         Thread.sleep(2000);
         driver.findElement(By.linkText(onlineproduct_Link_LinkLink)).click();
